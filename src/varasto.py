@@ -33,7 +33,7 @@ class Varasto:
             return 0.0
         if maara > self.saldo:
             kaikki_mita_voidaan = self.saldo
-            self.saldo = 1 # CHANGED
+            self.saldo = 0
 
             return kaikki_mita_voidaan
 
